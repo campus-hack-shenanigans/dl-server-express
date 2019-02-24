@@ -3,7 +3,7 @@ const express = require('express'),
       cors = require('cors'),
       { spawn } = require('child_process');
 
-const models = ['haiku', 'shakespeare', 'eminem'];
+const models = ['haiku', 'shakespeare', 'eminem', 'kanye', 'kanye-shakespeare'];
 
 const app = express();
 
